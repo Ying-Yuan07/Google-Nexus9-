@@ -32,8 +32,8 @@ mkdir WORKING_DIRECTORY
 cd WORKING_DIRECTORY    
 初始化仓库：     
 repo init -u git://mirrors.ustc.edu.cn/aosp/platform/manifest      
-## 如果提示无法连接到 gerrit.googlesource.com，可以编辑 ~/bin/repo，把 REPO_URL 一行替换成下面的：    
-## REPO_URL = 'https://gerrit-googlesource.proxy.ustclug.org/git-repo'     
+#如果提示无法连接到 gerrit.googlesource.com，可以编辑 ~/bin/repo，把 REPO_URL 一行替换成下面的：    
+#REPO_URL = 'https://gerrit-googlesource.proxy.ustclug.org/git-repo'     
 如果需要某个特定的 Android 版本：   
 repo init -u git://mirrors.ustc.edu.cn/aosp/platform/manifest -b android-7.1.1_r39     
 同步源码树（以后只需执行这条命令来同步）：     
